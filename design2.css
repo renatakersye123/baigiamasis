@@ -2,7 +2,7 @@
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(226, 120, 102, 0.42)), to(rgba(102, 150, 226, 0.42))), url("wild.png");
   background-image: linear-gradient(to right, rgba(226, 120, 102, 0.42), rgba(102, 150, 226, 0.42)), url("wild.png");
   width: 100%;
-  height: 80vh;
+  margin: 0 auto;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -11,8 +11,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 105px;
   overflow: hidden;
+  padding-top: 155px;
+  padding-bottom: 50px;
 }
 
 .boxes {

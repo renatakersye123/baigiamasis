@@ -1,0 +1,75 @@
+.great {
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 105px;
+    padding-bottom: 45px;
+}
+
+.Whythis {
+    font-weight: bold;
+    width: 444px;
+    margin-bottom: 0;
+    color: #212121;
+    font-size: 36px;
+    }
+
+.why {
+    margin-bottom: 65px;
+    color: #86878B;
+    font-size: 14px;
+}
+
+.linija {
+    position: relative;
+  }
+  
+  .linija:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 64px;
+    background-color: #E27866;
+    margin-left: -40px;
+  }
+
+  .blocks {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 1000px;
+  }
+  .block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+ #blck {
+      width: 300px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .bubble {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-bottom: 35px;
+      border: solid 1px #E27866;
+  }
+  h5.black {
+      margin-bottom: 30px;
+      color: #333333;
+      font-size: 20px;
+  }
+  .grey {
+      margin: 0;
+      color: #86878B;
+      font-size: 14px;
+  }

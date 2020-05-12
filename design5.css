@@ -1,0 +1,132 @@
+.pricing {
+  margin: 0 auto;
+  background-color: #6696E2;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.alloptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 60px;
+}
+
+.option {
+  width: 343px;
+  margin: 20px;
+  background: white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 4px 14px -8px #636363;
+          box-shadow: 0px 4px 14px -8px #636363;
+  position: relative;
+  top: 0;
+  -webkit-transition: top ease 0.5s;
+  transition: top ease 0.5s;
+}
+
+.price-info {
+  height: 210px;
+  width: 343px;
+  background-color: #333333;
+  border-radius: 5px 5px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#type {
+  font-size: 20px;
+  margin-top: 14px;
+  margin-bottom: 21px;
+}
+
+#period {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.ribbon {
+  width: 343px;
+  height: 6px;
+  background-color: #41D395;
+}
+
+.ribbon#higher {
+  width: 343px;
+  height: 40px;
+  background-color: #41D395;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.amount {
+  font-size: 94px;
+  margin: 0px;
+}
+
+.services {
+  margin: 13px;
+  color: #86878B;
+  font-size: 18px;
+}
+
+.greenline {
+  position: relative;
+}
+
+.greenline:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 64px;
+  background-color: #41D395;
+  margin-left: -40px;
+}
+
+.option:hover {
+  top: -20px;
+  -webkit-box-shadow: 0px 10px 45px 28px #41D395;
+          box-shadow: 0px 10px 45px 28px #41D395;
+}
+/*# sourceMappingURL=design5.css.map */
