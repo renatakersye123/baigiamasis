@@ -58,7 +58,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background-image: url(avatar.png);
+    background-image: url(images/avatar.png);
 }
 .customer {
     display: flex;

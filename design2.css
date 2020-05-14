@@ -107,7 +107,7 @@ p {
 }
 
 .pic1 {
-  background-image: url("lettuce.png");
+  background-image: url("images/lettuce.png");
   background-position: center;
   -o-object-fit: contain;
      object-fit: contain;
@@ -115,7 +115,7 @@ p {
 }
 
 .pic2 {
-  background-image: url("salad.png");
+  background-image: url("images/salad.png");
   background-position: center;
   -o-object-fit: contain;
      object-fit: contain;
@@ -123,7 +123,7 @@ p {
 }
 
 .pic3 {
-  background-image: url("shoes.png");
+  background-image: url("images/shoes.png");
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;

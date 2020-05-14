@@ -88,7 +88,7 @@ li {
 .city {
     background-position: center;
     min-height: 80vh;
-    background-image: url(city.png);
+    background-image: url(images/city.png);
     background-size: cover;
     overflow: hidden;
     box-shadow:inset 0 0 0 2000px rgba(36, 36, 36, 0.664);
@@ -240,7 +240,7 @@ picture {
     align-items: center;
 
 }
-img {
+#bigger {
     cursor: pointer;
     height: 30px;
     width: 30px;
