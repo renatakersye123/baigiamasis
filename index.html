@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href ="style.css">
+    <script src="scroll.js"></script>
+    <script src="submit.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
@@ -17,11 +20,11 @@
             <img class="logoo" src="images/logo.svg.svg">
             <nav class="menu"> 
             <ul class="menu">
-                <li class="underline"><a href="#">Feature</a></li>
-                <li class="underline"><a href="#">About</a></li>
-                <li class="underline"><a href="#">Pricing</a></li>
-                <li class="underline"><a href="#">Reviews</a></li>
-                <li class="underline"><a href="#">Contacts</a></li>
+                <li class="underline"><a href="#features">Feature</a></li>
+                <li class="underline"><a href="#about">About</a></li>
+                <li class="underline"><a href="#prix">Pricing</a></li>
+                <li class="underline"><a href="#feedback">Reviews</a></li>
+                <li class="underline"><a href="#contact-info">Contacts</a></li>
             </ul>
             </nav>           
         </div>
@@ -44,13 +47,13 @@
                 <div class="form">
                     <h3>Try your <span>free</span> trial today</h3>
                     <p class="details">Your details</p>
-                    <input type="text" id="first_name" name="first_name" placeholder="First name">
+                    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+                    <input type="text" name="fname" placeholder="First name">
                     <br>
-                    <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                    <input type="text" name="lname" placeholder="Last name">
                     <br>
-                    <input type="tel" id="phone-number" name="phone_number" placeholder="Phone number">
+                    <input type="tel" id="phone-number" name="phnr" placeholder="Phone number">
                     <p class="details">Type of subscribtion</p>
-
                     <div class="button-container">
                         <div class="button-one">
                             <div class="custom-radio">
@@ -72,7 +75,8 @@
                             </div>
                         </div> 
                     </div>
-                    <button class="start">GET STARTED</button>
+                    <button input type="submit" value="Submit" class="start">GET STARTED</button>
+                
                 </div>
             </div>
         </div>
@@ -90,7 +94,7 @@
             <img class="wifi" id="bigger" src="images/icon.svg">
         </picture>
     </div>
-    <section class="explore">
+    <section class="explore" id="features">
             <container class="boxes">
                 <div class="square" id="one"><p class="textrotate">REGISTER</p></div>
                 <div class="square" id="two"><p class="textrotate">APPLY</p></div>
@@ -111,7 +115,7 @@
             </container>
     </section>
 
-    <section class="page3">
+    <section class="page3" id="about">
 <div class="black">
     
     <img class="logopage3" src="images/logo.svg.svg">
@@ -141,7 +145,7 @@
 </div>
     </section>
     
-    <section class="great-feedback">
+    <section class="great-feedback" >
             <h2 class="Whythis">WHY THIS IS AWESOME</h2><br>
             <div class="linija"></div>
             <p class="why">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -166,7 +170,7 @@
         </container>
     </section>
     
-    <section class="pricing">
+    <section class="pricing" id="prix">
 
         <h2>PRICING OPTIONS</h2>
         <div class="greenline"></div><br>
@@ -354,7 +358,7 @@
 
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact-info">
         <h2>CONTACT US</h2><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
         <div class="form" id="contact-request">

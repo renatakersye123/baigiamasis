@@ -82,3 +82,9 @@
     width: 64px;
     background-color: #6696E2;
   }
+
+  @media screen and (min-device-width : 320px){
+      .swiper-container {
+          width: 320px;
+      }
+  }

@@ -1,5 +1,4 @@
 var mySwiper1 = new Swiper ('.swiper-container', {
-    // Optional parameters
     direction: 'horizontal',
     slidesPerView: 1,
     spaceBetween: 120,
@@ -18,4 +17,5 @@ var mySwiper1 = new Swiper ('.swiper-container', {
     },
 
   })
+
 
