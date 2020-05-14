@@ -1095,3 +1095,36 @@ p.pick {
     padding: 0px;
   }
 }
+@media screen and (max-device-width : 375px) {
+  .container{
+    margin-top: 10px;
+  }
+  .menu {
+    width: 100px;
+    padding: 0;
+  }
+  li {
+    padding: 0;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100px;
+  }
+  .galerijainfo {
+    margin-top: 10px;
+  }
+  .galerija {
+    margin: 0;
+  }
+  .logopage3 {
+    margin: 0;
+  }
+  .option {
+    margin: 0;;
+  }
+  .copyrights {
+    margin: 0;
+  }
+}
