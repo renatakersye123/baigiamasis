@@ -44,19 +44,40 @@
                     <p class="textas">
                     Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety of out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is.
                     </p>
-                    <button>DOWNLOAD</button>
+                    <button class="download">DOWNLOAD</button>
                 </div>  
-                <div class="forma">
-                    <section class="free"></section>
-                    <input type="text" name="first_name" placeholder="First name">
-                    <input type="text" name="last_name" placeholder="Last name">
-                    <input type="tel" name="phone_number" placeholder="Phone number">
+                <div class="form">
+                    <h3>Try your <span>free</span> trial today</h3>
+                    <p class="details">Your details</p>
+                    <input type="text" id="first_name" name="first_name" placeholder="First name">
+                    <br>
+                    <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                    <br>
+                    <input type="tel" id="phone-number" name="phone_number" placeholder="Phone number">
+                    <p class="details">Type of subscribtion</p>
 
-
-                </div>
-
-
+                    <div class="button-container">
+                        <div class="button-one">
+                            <div class="custom-radio">
+                                <input type="radio" id="radio_1" name="radio-label" value="1">
+                                <label for="radio_1">
+                                    <div class="radio-circle"></div>
+                                    <p class="pick">MONTHLY</p>
+                                    
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button-two">
+                            <div class="custom-radio">
+                                <input type="radio" id="radio_2" name="radio-label" value="2">
+                                <label for="radio_2">
+                                    <div class="radio-circle"></div>
+                                    <p class="pick">YEARLY</p>
+                                </label>
+                            </div>
+                        </div> 
                     </div>
+                    <button class="start">GET STARTED</button>
                 </div>
             </div>
         </div>
@@ -339,9 +360,49 @@
     </section>
 
     <section class="contact">
-        <h2>CONTACT US</h2>
+        <h2>CONTACT US</h2><br>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br>
-            
+        <div class="form" id="contact-request">
+                    <input type="text" id="first_name" name="first_name" placeholder="First name">
+                    <br>
+                    <input type="text" id="last_name" name="last_name" placeholder="Last name">
+                    <br>
+                    <input type="tel" id="phone-number" name="phone_number" placeholder="Phone number">
+
+                    <div class="button-container-send">
+                        <div class="button-three">
+                            <div class="custom-radio-send">
+                                <input type="radio" id="radio_3" name="radio-label" value="3">
+                                <label for="radio_3">
+                                    <div class="radio-circle-two"></div>
+                                    <p class="pick">PERSONAL</p>  
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button-four">
+                            <div class="custom-radio-send">
+                                <input type="radio" id="radio_4" name="radio-label" value="4">
+                                <label for="radio_4">
+                                    <div class="radio-circle-two"></div>
+                                    <p class="pick">COMPANY</p>
+                                </label>
+                            </div>
+                        </div> 
+                    </div>
+                <button class="send">SEND</button>    
+        </div>
+        </div>
     </section>
+    <div class="end">
+        <picture class="ending"> 
+            <img class="facebook" id="smaller" src="facebook-logo.svg">
+            <img class="insta" id="smaller" src="instagram-logo.svg">
+            <img class="tweet" id="smaller" src="twitter.svg">
+            <img class="pinterest" id="smaller" src="pinterest.svg">
+            <img class="wifi" id="smaller" src="icon.svg">
+            <p class="copyrights">© 2019 Cheshire County</p>
+        </picture>
+        
+    </div>
 </body>
 </html>
