@@ -1156,8 +1156,8 @@ p.pick {
   }
   .circle {
     margin-top: 10px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     animation: bgColor 5s infinite linear;
   }
   @keyframes bgColor {
