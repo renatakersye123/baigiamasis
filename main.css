@@ -81,6 +81,12 @@ a:hover, a:focus {
   -webkit-transition: width .25s;
   transition: width .25s;
 }
+#myLinks {
+  display: none;
+}
+.icon {
+  display: none;
+}
 
 .logoo {
   height: 50px;
@@ -1025,6 +1031,9 @@ p.pick {
   font-weight: lighter;
 }
 /*# sourceMappingURL=main.css.map */
+
+
+
 @media screen and (max-device-width : 480px){
 
   .container {
@@ -1139,6 +1148,39 @@ p.pick {
   .h3p3 {
     width: 100px;
   }
+  .nepaejo {
+    display: none;
+  }
+  .circle {
+    margin: 0;
+    animation: bgColor 5s infinite linear;
+  }
+  @keyframes bgColor {
+    12.5% {
+      background-color: #FF0000;
+    }
+    25% {
+      background-color: #FFA500;
+    }
+    37.5% {
+      background-color: #FFFF00;
+    }
+    50% {
+      background-color: #7FFF00;
+    }
+    62.5% {
+      background-color: #00FFFF;
+    }
+    75% {
+      background-color: #0000FF;
+    }
+    87.5% {
+      background-color: #9932CC;
+    }
+    100% {
+      background-color: #FF1493;
+    }
+  }
 
   #contact-request {
     width: 270px;
@@ -1156,6 +1198,26 @@ p.pick {
   .social_container{
     padding: 0px;
   }
+
+  
+  #myLinks {
+    display: none;
+  }
+ a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
 }
 @media screen and (max-device-width : 375px) {
 
@@ -1179,6 +1241,7 @@ p.pick {
     flex-direction: row;
     margin: 0;
     height: 100px;
+    width: 350px;
   }
   .galerijainfo {
     margin-top: 10px;
