@@ -1105,13 +1105,16 @@ p.pick {
   }
 
   .title1, .title2 {
-    width: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .textp3, .pp3 {
     width: 150px;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
   }
 
   .header {
@@ -1152,7 +1155,9 @@ p.pick {
     display: none;
   }
   .circle {
-    margin: 0;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
     animation: bgColor 5s infinite linear;
   }
   @keyframes bgColor {
