@@ -1025,7 +1025,7 @@ p.pick {
   font-weight: lighter;
 }
 /*# sourceMappingURL=main.css.map */
-@media screen and (max-device-width : 480px) and (max-device-width : 600px) and (max-device-width : 480px){
+@media screen and (max-device-width : 480px){
 
   .container {
     display: flex;
