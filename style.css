@@ -83,8 +83,13 @@
     background-color: #6696E2;
   }
 
-  @media screen and (min-device-width : 320px){
+  @media screen and (max-device-width : 320px){
       .swiper-container {
           width: 320px;
       }
   }
+  @media screen and (max-device-width : 475px){
+    .swiper-container {
+        width: 320px;
+    }
+}
